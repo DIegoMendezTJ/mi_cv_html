@@ -1,0 +1,14 @@
+html{
+    padding: 0%;
+    background-color: black;
+}
+
+#encabezado{
+    color: greenyellow;
+    text-align: center;
+}
+
+.introduccion{
+    color: white;
+    text-align: justify;
+}
