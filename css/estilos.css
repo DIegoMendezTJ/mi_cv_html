@@ -3,6 +3,13 @@ html{
     background-color: black;
 }
 
+/*Variables de mi raiz*/
+:root{
+    --verde--esmeralda:#50C878;
+}
+
+
+
 #encabezado{
     color: greenyellow;
     text-align: center;
@@ -11,4 +18,36 @@ html{
 .introduccion{
     color: white;
     text-align: justify;
+}
+
+#navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--verde--esmeralda);
+    border: 0.2rem solid whitesmoke;
+    padding: 15px 30px;
+
+}
+
+.links_navegacion{
+    display: flex;
+    list-style: none;
+}
+
+.links_navegacion li {
+    margin-left: 20px;
+}
+
+/* Estilo de los enlaces individuales (li) */
+.links_navegacion li {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Transición suave para el efecto Hover */
+}
+
+/* Efecto al pasar el cursor sobre los enlaces */
+.links_navegacion li:hover {
+    color: #1800f3; /* Cambia a un azul claro */
 }
