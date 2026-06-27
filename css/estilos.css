@@ -5,7 +5,12 @@ html{
 
 /*Variables de mi raiz*/
 :root{
+    /*Colores globales*/
     --verde--esmeralda:#50C878;
+
+    /*Tipografia*/
+    --fuente-titulo:'Georgia', 'Times New Roman', serif;
+    --fuente-cuerpo:'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
 
 
@@ -13,6 +18,7 @@ html{
 #encabezado{
     color: greenyellow;
     text-align: center;
+    margin: 20px;
 }
 
 .introduccion{
@@ -35,19 +41,44 @@ html{
     list-style: none;
 }
 
-.links_navegacion li {
-    margin-left: 20px;
-}
-
 /* Estilo de los enlaces individuales (li) */
 .links_navegacion li {
     color: #000000;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     transition: color 0.3s ease; /* Transición suave para el efecto Hover */
+    margin-left: 20px;
 }
 
 /* Efecto al pasar el cursor sobre los enlaces */
 .links_navegacion li:hover {
     color: #1800f3; /* Cambia a un azul claro */
+}
+
+
+/*================================================
+Sobre mi
+==================================================*/
+
+/*Colores y fuentes de la section Sobre mi*/
+
+.Sobre_mi{
+
+}
+
+.Sobre_mi h2{
+    width: fit-content;
+    margin: 0 auto; /* <- ESTO LO CARDINALIZA AL CENTRO */
+    border: 0.5rem solid rgb(50, 0, 158);
+    padding: 5px 10px;
+    color: white;
+    
+    
+}
+
+.Sobre_mi p{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
